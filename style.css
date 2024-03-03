@@ -1,0 +1,89 @@
+.current-date {
+    color: yellow !important;
+    background-color: rgb(83, 128, 115) !important;
+}
+
+.div-ChiTietLich th,
+th {
+    background-color: #0070c0 !important;
+    font-weight: bold;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    line-height: 17px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+td {
+    border: 1px solid rgb(218, 215, 215);
+    padding-right: 3px;
+    position: relative;
+}
+
+body {
+    line-height: 1;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+td div {
+    background-color: #ddebf7;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgb(131, 131, 131);
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #0070c0;
+    color: #f8f8f2;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(83, 128, 115);
+    color: yellow !important;
+}
+
+.current-date:hover {
+    background-color: #003d7d !important;
+    color: yellow;
+}
+
+.div-ChiTietLich th:hover,
+th:hover {
+    background-color: #003d7d !important;
+    color: yellow;
+}
+
+table:hover {
+    border-color: blue;
+}
+
+td div:hover {
+    background-color: #b3d9ff;
+    box-shadow: 5px 5px 15px rgb(131, 131, 131);
+}
